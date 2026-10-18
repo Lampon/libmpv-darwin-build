@@ -201,6 +201,7 @@ video_default_options = [
     '--enable-decoder=ass',
     '--enable-decoder=dvbsub',
     '--enable-decoder=dvdsub',
+    '--enable-decoder=pgssub',
     '--enable-decoder=srt',
     '--enable-decoder=stl',
     '--enable-decoder=subrip',
@@ -210,6 +211,7 @@ video_default_options = [
     '--enable-decoder=vplayer',
     '--enable-decoder=webvtt',
     '--enable-decoder=movtext',
+    '--enable-decoder=xsub',
 
     # parsers
     '--enable-parser=h263',
@@ -245,6 +247,8 @@ video_default_options = [
     '--enable-demuxer=ass',
     '--enable-demuxer=srt',
     '--enable-demuxer=stl',
+    '--enable-demuxer=sup',
+    '--enable-demuxer=vobsub',
     '--enable-demuxer=webvtt',
     '--enable-demuxer=subviewer',
     '--enable-demuxer=subviewer1',
