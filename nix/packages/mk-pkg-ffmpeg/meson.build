@@ -100,6 +100,8 @@ audio_default_options = [
     '--enable-decoder=pcm*',
     '--enable-decoder=dsd*',
     '--enable-decoder=dca', # required by dts
+    '--enable-decoder=truehd', # BluRay lossless, decoder (not just demuxer)
+    '--enable-decoder=mlp', # pulled in with truehd; explicit for clarity
 
     # parsers   
     '--enable-parser=aac*',
